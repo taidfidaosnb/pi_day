@@ -2,7 +2,7 @@ import simple_gui
 
 
 def calc(a: str) -> str:
-    with open("pi_to_billion_dec.txt", "r") as pi:
+    with open("Pi - Dec.txt", "r") as pi:
         pi.read(2)
         b = len(a)
         text = ""
