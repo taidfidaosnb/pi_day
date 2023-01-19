@@ -20,7 +20,7 @@ class MyIterator:
             return self.data
         raise StopIteration
 
-    
+
 with open("piday/pi_to_billion_dec.txt", 'r') as pi:
     a = pi.read()
     b = input()
