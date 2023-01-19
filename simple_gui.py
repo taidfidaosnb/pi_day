@@ -22,7 +22,7 @@ def main_roop(calc, exceptions: int = 0) -> None:  # tkinter를 이용한 간단
             except Exception as e:
                 e3.insert(0, f"ERROR: {e}")
         else:
-            e3.insert(0, x(n))
+            e3.insert(0, calc(n))
 
     window = Tk()  # 창 생성
     window.geometry("270x170")  # 크기
