@@ -23,16 +23,6 @@ class MyIterator:
     
 
 
-
-a = MyIterator()
-for i in iter(a):
-    print(i)
-for i in a:
-    print(i)
-
-print(a.data)
-
-
 with open("piday/pi_to_billion_dec.txt", 'r') as pi:
     a = pi.read()
     b = input()
