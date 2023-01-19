@@ -1,24 +1,4 @@
-import itertools
 
-class MyIterator:
-    def __init__(self):
-        self.data = '1'
-        self.count = 0
-
-    def setdata(self):
-        self.data += '1'
-        return self.data
-
-    def __iter__(self):
-        self.count = 0
-        return self
-
-    def __next__(self):
-        if self.count != 3:
-            self.data += '1'
-            self.count += 1
-            return self.data
-        raise StopIteration
 
 
 with open("piday/pi_to_billion_dec.txt", 'r') as pi:
