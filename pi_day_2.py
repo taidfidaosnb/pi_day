@@ -14,7 +14,7 @@ def calc(a: str) -> str:
         for i in range(b):
             text += pi.read(1)
 
-        for i in range(2, 10**9):
+        for i in range(2, 10**7):
             if a == text:
                 return f"{i-1} ~ {i-2+b}번째 자리에서 등장해요"
 
