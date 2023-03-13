@@ -7,7 +7,7 @@ def calc(a: str) -> str:
     except:
         return "잘못 입력하신 것 같은데요"
 
-    with open("pi.txt", "r") as pi:
+    with open("pi_7.txt", "r") as pi:
         pi.read(2)
         b = len(a)
         text = ""
